@@ -5,6 +5,7 @@
   "repository": "facebook/relay-starter-kit",
   "version": "0.1.0",
   "scripts": {
+    "lint": "eslint .",
     "start": "babel-node ./server.js",
     "update-schema": "babel-node ./scripts/updateSchema.js"
   },
@@ -30,6 +31,7 @@
     "webpack-dev-server": "1.15.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.14.0"
+    "babel-cli": "^6.14.0",
+    "eslint-config-rallycoding": "^3.1.0"
   }
 }
